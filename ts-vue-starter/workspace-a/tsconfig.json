@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"outDir": "./built/",
+		"target": "esnext",
+		"module": "esnext",
+		"allowJs": true,
+		"jsx": "preserve",
+		"sourceMap": true,
+		"importHelpers": true,
+		"strict": true,
+		"noImplicitAny": true,
+		"moduleResolution": "node",
+		"baseUrl": "./",
+		"paths": {
+			"@/*": ["*"],
+			"@assets/*": ["*"]
+		},
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"lib": [
+			"dom",
+			"es5",
+			"es6",
+			"es7",
+			"es2015.promise"
+		]
+	},
+	"include": [
+		"./src/**/*"
+	]
+}

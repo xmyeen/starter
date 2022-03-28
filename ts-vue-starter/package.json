@@ -1,0 +1,13 @@
+{
+  "name": "ts-vue-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["workspace-a"],
+  "scripts": {
+    "b": "NODE_ENV=production && node build/build.js",
+    "d": "NODE_ENV=development && node build/dev.js",
+    "dev-server": "webpack-dev-server --inline --process --config build/webpack.dev.conf.js"
+  }
+}
